@@ -16,6 +16,12 @@
 * torchao-run.py  使用torchao量化
 * gguf-run.py 使用llama_cpp加载模型与多轮对话
 
+### 目录 2026-lora
+#### 对应文章
+未完成
+#### 代码目录说明
+* test_cmrc2018.py  使用模型测试cmrc2018数据集中的数据，输出结果文件
+
 
 
 
