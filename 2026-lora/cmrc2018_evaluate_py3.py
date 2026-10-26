@@ -9,7 +9,6 @@ v4: fixed segmentation issues
 '''
 # 本文件是 cmrc2018_evaluate.py 的 Python 3.12 移植版
 # [PY3改动] 移除了 `from __future__ import print_function`（Python 3 中 print 本来就是函数）
-# [PY3改动] 删除了 `from __future__ import print_function`（Python 3 无需兼容导入）
 from collections import Counter, OrderedDict
 import string
 import re
