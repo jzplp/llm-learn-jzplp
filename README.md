@@ -21,7 +21,4 @@
 未完成
 #### 代码目录说明
 * test_cmrc2018.py  使用模型测试cmrc2018数据集中的数据，输出结果文件
-
-
-
-
+* cmrc2018_evaluate_py3.py cmrc2018数据集中 cmrc2018_evaluate.py移植到Python3
