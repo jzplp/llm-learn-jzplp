@@ -24,3 +24,4 @@
 * cmrc2018_evaluate_py3.py cmrc2018数据集中 cmrc2018_evaluate.py移植到Python3
 * prepare_data.py  将训练和验证数据集处理成大模型训练需要的形式
 * train_lora.py 模型LoRA训练代码
+* merge_lora.py 模型合并代码

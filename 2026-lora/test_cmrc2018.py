@@ -69,7 +69,7 @@ samples = load_samples(INPUT_FILE)
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 # 加载模型
 model = AutoModelForCausalLM.from_pretrained(
-    MODEL_NAME, torch_dtype="auto", device_map="auto"
+    MODEL_NAME, torch_dtype="auto"
 )
 # 推理模式，关闭 dropout
 model.eval()

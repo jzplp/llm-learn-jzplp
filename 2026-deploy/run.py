@@ -17,7 +17,6 @@ tokenizer = AutoTokenizer.from_pretrained(MODEL_DIR)
 model = AutoModelForCausalLM.from_pretrained(
     MODEL_DIR,
     torch_dtype="auto",
-    device_map="auto",   # 自动分配到可用设备（GPU，无则 CPU）
     # quantization_config=quantization_config
 )
 

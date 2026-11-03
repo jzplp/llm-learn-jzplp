@@ -4,8 +4,6 @@
     python train_lora.py  # 全量训练集 + 全量验证集
     python train_lora.py --limit 100 --val_limit 50  # 训练集只用前100条，验证集前50条
     python train_lora.py --resume Qwen3-0.6B-lora/checkpoint-200  # 从指定 checkpoint 继续训练
-
-暂停：训练中按 Ctrl+C；恢复时保持 --limit / --val_limit 等参数与上次一致
 """
 import argparse
 
