@@ -25,3 +25,4 @@
 * prepare_data.py  将训练和验证数据集处理成大模型训练需要的形式
 * train_lora.py 模型LoRA训练代码
 * merge_lora.py 模型合并代码
+* test_cmrc2018_lora.py 使用lora训练后的模型测试cmrc2018数据集中的数据，输出结果文件
