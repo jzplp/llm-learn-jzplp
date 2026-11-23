@@ -26,3 +26,4 @@
 * train_lora.py 模型LoRA训练代码
 * merge_lora.py 模型合并代码
 * test_cmrc2018_lora.py 使用lora训练后的模型测试cmrc2018数据集中的数据，输出结果文件
+* plot_loss.py 输入loss数据文件，绘制曲线图
